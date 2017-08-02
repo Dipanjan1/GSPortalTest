@@ -1,56 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="290.527074">
-<testcase classname="Testing Search" name="Check search icon" time="290.527074">
-<failure message="org.openqa.selenium.WebDriverException: connection refused&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'Dipanjans-MacBook-Air.local', ip: 'fe80:0:0:0:1450:d784:ebbd:b14f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_141'&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: stack backtrace:&#10;   0:        0x10b59b54e - backtrace::backtrace::trace::hc694823f3e7463c0&#10;   1:        0x10b59b6ec - backtrace::capture::Backtrace::new::h23089c033eded8f0&#10;   2:        0x10b52db32 - webdriver::error::WebDriverError::new::h403591f0d09febaa&#10;   3:        0x10b537585 - geckodriver::marionette::MarionetteHandler::create_connection::hfc7af8bf299cf57b&#10;   4:        0x10b50e707 - _$LT$webdriver..server..Dispatcher$LT$T$C$$u20$U$GT$$GT$::run::h03bbbfe904a992bd&#10;   5:        0x10b4f4c97 - std::panicking::try::do_call::he6fd7abc59b6b346&#10;   6:        0x10b6b84ba - __rust_maybe_catch_panic&#10;   7:        0x10b50500c - _$LT$F$u20$as$u20$alloc..boxed..FnBox$LT$A$GT$$GT$::call_box::h8e002f7c448fbabb&#10;   8:        0x10b6b4684 - std::sys::imp::thread::Thread::new::thread_start::hba7593f2e1f1beb1&#10;   9:     0x7fffbd87693a - _pthread_body&#10;  10:     0x7fffbd876886 - _pthread_start&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:108)&#10;&#9;at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:104)&#10;&#9;at testSearch.stepDefinitionHelper.setUp(stepDefinitionHelper.java:24)&#10;&#9;at testSearch.stepDefinitions.setUpWebDriver(stepDefinitions.java:19)&#10;&#9;at testSearch.stepDefinitions.i_am_on_the_homepage(stepDefinitions.java:53)&#10;&#9;at ✽.Given I am on the homepage(featureFiles/search.feature:7)&#10;"><![CDATA[Given I am on the homepage..................................................failed
-Then I should see search icon...............................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: connection refused
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'Dipanjans-MacBook-Air.local', ip: 'fe80:0:0:0:1450:d784:ebbd:b14f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_141'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: stack backtrace:
-   0:        0x10b59b54e - backtrace::backtrace::trace::hc694823f3e7463c0
-   1:        0x10b59b6ec - backtrace::capture::Backtrace::new::h23089c033eded8f0
-   2:        0x10b52db32 - webdriver::error::WebDriverError::new::h403591f0d09febaa
-   3:        0x10b537585 - geckodriver::marionette::MarionetteHandler::create_connection::hfc7af8bf299cf57b
-   4:        0x10b50e707 - _$LT$webdriver..server..Dispatcher$LT$T$C$$u20$U$GT$$GT$::run::h03bbbfe904a992bd
-   5:        0x10b4f4c97 - std::panicking::try::do_call::he6fd7abc59b6b346
-   6:        0x10b6b84ba - __rust_maybe_catch_panic
-   7:        0x10b50500c - _$LT$F$u20$as$u20$alloc..boxed..FnBox$LT$A$GT$$GT$::call_box::h8e002f7c448fbabb
-   8:        0x10b6b4684 - std::sys::imp::thread::Thread::new::thread_start::hba7593f2e1f1beb1
-   9:     0x7fffbd87693a - _pthread_body
-  10:     0x7fffbd876886 - _pthread_start
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:104)
-	at testSearch.stepDefinitionHelper.setUp(stepDefinitionHelper.java:24)
-	at testSearch.stepDefinitions.setUpWebDriver(stepDefinitions.java:19)
-	at testSearch.stepDefinitions.i_am_on_the_homepage(stepDefinitions.java:53)
-	at ✽.Given I am on the homepage(featureFiles/search.feature:7)
-]]></failure>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="Testing Search" name="Check search icon" time="0">
+<skipped message="The scenario has no steps"/>
 </testcase>
 </testsuite>

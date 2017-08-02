@@ -3,16 +3,16 @@ Feature: Testing Search
 @Runme
 
 Scenario: Check search icon
-#
-#Given I am on the homepage
-#Then I should see search icon
-#
+
+Given I am on the homepage
+Then I should see search icon
+
 Scenario: Click search icon
-#
-#Given I am on the homepage
-#Then I should see search icon
-#And I click on Search icon
-#Then I should see Search text field
+
+Given I am on the homepage
+Then I should see search icon
+And I click on Search icon
+Then I should see Search text field
 
 
 Scenario Outline: Test Search Functionality
@@ -26,9 +26,9 @@ Then I should see search results contain <search_query>
 
 Examples:
 |search_query|
-#|Genie|
-#|Gentu|
-#|gfjh|
+|Genie|
+|Gentu|
+|gfjh|
 |We123|
 |@123|
 |@e12|
